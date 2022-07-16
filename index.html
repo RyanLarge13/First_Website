@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="style.css">
+  <title>JS Practice</title>
+</head>
+<body>
+  <header>
+    <h1>Ryan Large</h1>
+    
+    <div class="toggle-div" onclick="navDisplay()">
+     <span class="toggle-span"></span>
+     <span class="toggle-span"></span>
+     <span class="toggle-span"></span>
+    </div>
+    
+    <nav class="nav">
+      <a href="#" class="menu-btn1" id="menu-btn">Home</a>
+      <a href="#" class="menu-btn2" id="menu-btn">Resume</a>
+      <a href="#" class="menu-btn3" id="menu-btn">Projects</a>
+      <a href="#" class="menu-btn4" id="menu-btn">About</a>
+      <a href="#" class="menu-btn5" id="menu-btn">Contact</a>
+    </nav>
+  </header>
+  <main>
+    
+     <!-- Begin intro section -->
+    <div class="intro-container" id="intro">
+        <h2>Welcome to my Profile</h2>
+        <p>Hi! My name is Ryan Large, and I am a <strong>Full Stack</strong> web developer.. Check out my skills bellow.</p>
+        <div class="intro-btns">
+          <a class="js-btn" href="#JS">JavaScript</a>
+          <a class="html-btn" href="#HTML5">HTML5</a>
+          <a class="css-btn" href="#CSS3">CSS3</a>
+          <a class="py-btn" href="#PY">Python</a>
+          <a class="sql-btn" href="#SQL">SQL</a>
+        </div>
+    </div>
+  
+    
+    <!-- article1 section -->
+    <article class="article-1" id="JS">
+      <h2>JavaScript</h2>
+      <p>I <strong>LOVE </strong>JavaScript. It is no wonder why this is the most popular language on Earth.</p>
+    </article>
+    
+    <!-- slide cards section -->
+    <div class="card-slider-container">
+        <img id='last-clone' class="slider-img" src="./Images/slide5.jpg" alt="" />
+      
+        <img class="slider-img" src="./Images/slide1.jpg" alt="" />
+        
+        <img class="slider-img" src="./Images/slide2.jpeg" alt="" />
+     
+        <img class="slider-img" src="./Images/slide3.jpg" alt="" />
+ 
+        <img class="slider-img" src="./Images/slide4.jpg" alt="" />
+    
+        <img class="slider-img" src="./Images/slide5.jpg" alt="" />
+        
+        <img id="first-clone" class="slider-img" src="./Images/slide1.jpg" alt="" />
+    </div>
+    
+    <article class="article-1" id="HTML5">
+      <h2>HT<>ML=5</h2>
+      <p>I <strong>am taken back </strong>with the importance of this markup-language. Without it, there simply is <strong>NO </strong>structure.</p>
+    </article>
+    
+    <div class="img-container">
+      
+      <img src="./Images/cardImages/dev1.jpg" alt="" class="card-img"/>
+      <div>
+        <h3>React</h3>
+        <p>I am a wonderfully passionate <strong>React Native Frontend Web Developer</strong></p>
+      </div>
+      
+      <img src="./Images/cardImages/dev2.png" alt="" class="card-img"/>
+      <div>
+        <h3>JSX</h3>
+        <p>Without JSX <strong>coding would not be the same</strong>. For my generation, it is standard.</p>
+      </div>
+      
+      <img src="./Images/cardImages/dev3.png" alt="" class="card-img"/>
+      <div>
+        <h3>SASS</h3>
+        <p>Using <strong>libraries and alternative languages</strong> to implement my skills is one of the best ways to accomplish fast, clean, and readable projects. <strong>SCSS </strong> is a perfect example.</p>
+      </div>
+      
+      <img src="./Images/cardImages/dev4.jpg" alt="" class="card-img"/>
+      <div>
+        <h3>Accessibility</h3>
+        <p>Too often is Accessibility set to the side in sacrifice for beautiful aesthetics. <strong>I say we do them both</strong>.</p>
+      </div>
+      
+    </div>
+    
+  <article class="article-1" id="CSS3">
+      <h2>CSS3</h2>
+      <p>I have a passion for styling.. Although the reality is I am not the most wonderful designer, I still enjoy so much making things happen with CSS.</p>
+    </article>
+    
+    <div class="css-container">
+      
+      <div class="outter-space">
+        <div class="planet1"></div>
+        <div class="planet2"></div>
+        <div class="rings"></div>
+        
+        <div class="moon"></div>
+        
+        <div class="star1"></div>
+        <div class="star2"></div>
+        <div class="star3"></div>
+        
+        <div class="blob1"></div>
+        <div class="blob2"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    <div class="blobs-container">
+      
+      <svg width='100%' height='100%'>
+        <path transform='translate(100 100)'>
+          <animate 
+          attributeName='d'
+          dur='10s'
+          repeatCount='indefinite'
+          values='M59.9,-62.5C73.3,-46.5,76.8,-23.2,68.5,-8.3C60.1,6.6,39.9,13.1,26.5,25.8C13.1,38.5,6.6,57.4,-5.6,63C-17.9,68.7,-35.7,61.1,-51.2,48.4C-66.6,35.7,-79.6,17.9,-77.7,1.9C-75.8,-14.1,-59,-28.2,-43.6,-44.2C-28.2,-60.2,-14.1,-78.1,4.6,-82.7C23.2,-87.3,46.5,-78.5,59.9,-62.5Z;
+          
+         M44.7,-46.8C56.7,-32.7,64.3,-16.3,65.4,1.1C66.5,18.4,60.9,36.9,48.9,49.9C36.9,62.9,18.4,70.4,-0.9,71.3C-20.3,72.3,-40.6,66.6,-50.4,53.6C-60.1,40.6,-59.3,20.3,-52.5,6.8C-45.6,-6.6,-32.8,-13.3,-23,-27.4C-13.3,-41.5,-6.6,-63.2,4.9,-68C16.3,-72.9,32.7,-60.9,44.7,-46.8Z;
+         
+        M44.3,-42.4C53,-35.7,52.4,-17.9,47,-5.3C41.7,7.2,31.7,14.5,23.1,30.3C14.5,46.2,7.2,70.7,0.2,70.5C-6.9,70.4,-13.8,45.5,-21.8,29.6C-29.8,13.8,-39,6.9,-44.2,-5.2C-49.4,-17.3,-50.6,-34.6,-42.6,-41.3C-34.6,-47.9,-17.3,-44,0.3,-44.3C17.9,-44.6,35.7,-49.1,44.3,-42.4Z;
+        
+       M34.7,-33C44.2,-25.2,50.6,-12.6,53.1,2.4C55.5,17.5,53.9,34.9,44.4,43.6C34.9,52.2,17.5,52,1.5,50.5C-14.4,49,-28.9,46.1,-33.8,37.5C-38.7,28.9,-34,14.4,-32.8,1.3C-31.5,-11.9,-33.6,-23.8,-28.7,-31.6C-23.8,-39.4,-11.9,-43.2,0.4,-43.5C12.6,-43.9,25.2,-40.9,34.7,-33Z;
+       
+       
+      M59.9,-62.5C73.3,-46.5,76.8,-23.2,68.5,-8.3C60.1,6.6,39.9,13.1,26.5,25.8C13.1,38.5,6.6,57.4,-5.6,63C-17.9,68.7,-35.7,61.1,-51.2,48.4C-66.6,35.7,-79.6,17.9,-77.7,1.9C-75.8,-14.1,-59,-28.2,-43.6,-44.2C-28.2,-60.2,-14.1,-78.1,4.6,-82.7C23.2,-87.3,46.5,-78.5,59.9,-62.5Z'
+          />
+        </path>
+      </svg>
+      
+    </div>
+    
+  </main>
+  
+  <button class="go-to-top"><a href="#intro">Top</a></button>
+  
+  <!-- js link -->
+  <script type="text/javascript" charset="utf-8" src="script.js">
+  </script>
+</body>
+</html>
